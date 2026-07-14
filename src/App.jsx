@@ -15,7 +15,6 @@ const App = () => {
 
     const oldUsers = [...allUsers]
     oldUsers.push({ userName, userRole, userDesc, imageURL })
-    console.log(oldUsers)
 
     setAllUsers(oldUsers)
 
